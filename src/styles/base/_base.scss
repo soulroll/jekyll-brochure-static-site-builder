@@ -1,0 +1,27 @@
+html {
+  background-color: #eee;
+}
+
+body {
+  font-family: 'Montserrat Variable', sans-serif;
+  font-weight: 400;
+}
+
+main {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.container {
+  @include rem(max-width, 1600px);
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}

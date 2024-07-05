@@ -1,0 +1,36 @@
+# Site settings
+title: Jekyll Brochure Static Site Builder
+description: Te Tai Treaty Settlement Stories static website using Jekyll and Webpack.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: pretty # Use pretty permalinks for cleaner URLs
+
+# Build settings
+markdown: kramdown
+
+# Configuration for the Jekyll server
+port: 4000
+
+collections:
+  pages:
+    output: true
+
+# Exclude from processing
+exclude:
+  - .jekyll-cache/
+  - node_modules
+  - webpack.config.js
+  - package.json
+  - package-lock.json
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - src
+  - README.md
+  - .babelrc
+  - .eslintrc
+  - .gitignore
