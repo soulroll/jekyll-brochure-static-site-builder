@@ -13946,6 +13946,49 @@ body {
   font-family: "Montserrat Variable", sans-serif;
 }
 
+.subpage-toggler {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.nav-item.dropdown .nav-link {
+  padding-right: 50px;
+}
+
+.carousel-caption-custom-container {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.carousel-caption-custom-container .container {
+  width: 100%;
+  height: 100%;
+  padding: 0 15px 0 15px;
+  padding: 0 0.9375rem 0 0.9375rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+}
+@media (max-width: 991.98px) {
+  .carousel-caption-custom-container {
+    position: relative;
+  }
+}
+
+.carousel-caption-custom {
+  position: relative;
+  z-index: 3;
+  flex: none;
+  width: 100%;
+  right: auto;
+  top: auto;
+  bottom: auto;
+}
+
 html {
   background-color: #eee;
 }

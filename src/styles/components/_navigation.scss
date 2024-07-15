@@ -1,0 +1,13 @@
+.subpage-toggler {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.nav-item {
+  &.dropdown {
+    .nav-link {
+      padding-right: 50px;
+    }
+  }
+}

@@ -3,6 +3,18 @@
 
 - title: "About us"
   url: "/about/"
+  
+- title: "Services"
+  url: "/services/"
+  subpages:
+    - subtitle: "Website design"
+      subhref: "/services/websitedesign/"
+    - subtitle: "logo design"
+      subhref: "/services/logodesign/"
+    - subtitle: "Accessibility"
+      subhref: "/services/accessibility/"
+    - subtitle: "Hosting"
+      subhref: "/services/hosting/"
 
 - title: "Contact us"
   url: "/contact/"
