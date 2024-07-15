@@ -21,11 +21,35 @@
 }
 
 .carousel-caption-custom {
+  @include rem(padding, 35px 40px 40px 40px);
+  @include rem(max-width, 650px);
+  background-color: rgba(0,0,0,0.2);
   position: relative;
   z-index: 3;
   flex: none;
-  width: 100%;
   right: auto;
   top: auto;
   bottom: auto;
+  color: $brand-white;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// Carousel arrow modifications
+.carousel-control-prev,
+.carousel-control-next {
+  @media (max-width: 1960px) { 
+    width: 5%;
+  }
+  @media (max-width: 1760px) { 
+    display: none;
+  }
+}
+
+.carousel-control-prev-tablet,
+.carousel-control-next-tablet {
+  @media (max-width: 1740px) { 
+    display: block;
+  }
 }

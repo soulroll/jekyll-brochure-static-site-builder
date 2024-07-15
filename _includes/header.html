@@ -1,12 +1,15 @@
 <header data-bs-theme="dark">
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" aria-label="site-navigation">
     <div class="container">
+
       <a class="navbar-brand" href="/">Launchpad</a>
+
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="navbar-collapse collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
           {% for item in site.data.navigation %}
           <li class="nav-item {% if item.subpages != null %}dropdown{% endif %}">
             <a class="nav-link{% if page.url == item.url %} active{% endif %}" {% if page.url == item.url %}aria-current="page"{% endif %} href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
@@ -27,11 +30,8 @@
           </li>
           {% endfor %}
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
+
     </div>
   </nav>
 </header>
