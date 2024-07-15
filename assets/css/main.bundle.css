@@ -13946,6 +13946,11 @@ body {
   font-family: "Montserrat Variable", sans-serif;
 }
 
+.navbar {
+  padding: 20px 0 20px 0;
+  padding: 1.25rem 0 1.25rem 0;
+}
+
 .navbar-brand {
   font-size: 26px;
 }
@@ -13958,6 +13963,7 @@ body {
 
 .nav-item.dropdown .nav-link {
   padding-right: 50px;
+  padding-right: 3.125rem;
 }
 
 .carousel-caption-custom-container {
@@ -14021,6 +14027,11 @@ body {
   }
 }
 
+.news-summary {
+  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
+}
+
 html {
   background-color: #eee;
 }
@@ -14032,12 +14043,13 @@ body {
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 89px;
+  padding-top: 5.5625rem;
 }
 
 .page {
-  padding: 50px 0 50px 0;
-  padding: 3.125rem 0 3.125rem 0;
+  padding: 60px 0 60px 0;
+  padding: 3.75rem 0 3.75rem 0;
 }
 
 .carousel-item {
