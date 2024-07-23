@@ -13955,15 +13955,54 @@ body {
   font-size: 26px;
 }
 
-.subpage-toggler {
-  position: absolute;
-  top: 0;
-  right: 0;
+.navbar-toggler {
+  font-size: 32px;
+}
+.navbar-toggler:after {
+  content: "\f62a";
+  font-family: "Bootstrap-icons";
+}
+.navbar-toggler.collapsed:after {
+  content: "\f479";
 }
 
-.nav-item.dropdown .nav-link {
-  padding-right: 50px;
-  padding-right: 3.125rem;
+.subpage-toggler {
+  position: absolute;
+  background-color: transparent;
+  top: 0;
+  right: 0;
+  border: 0;
+  line-height: 26px;
+}
+.subpage-toggler:after {
+  content: "\f282";
+  font-family: "Bootstrap-icons";
+}
+.subpage-toggler.show:after {
+  content: "\f286";
+}
+
+@media (min-width: 768px) {
+  .navbar-nav .nav-item {
+    margin-right: 30px;
+    margin-right: 1.875rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-item {
+    position: relative;
+  }
+}
+.navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+.navbar-nav .nav-item .nav-link {
+  padding: 0px 0px 0px 0px;
+  padding: 0rem 0rem 0rem 0rem;
+}
+.navbar-nav .nav-item.dropdown .nav-link {
+  padding-right: 40px;
+  padding-right: 2.5rem;
 }
 
 .carousel-caption-custom-container {

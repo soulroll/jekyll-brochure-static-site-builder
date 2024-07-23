@@ -6,16 +6,64 @@
   font-size: 26px;
 }
 
-.subpage-toggler {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+.navbar-toggler {
+  font-size: 32px;
 
-.nav-item {
-  &.dropdown {
-    .nav-link {
-      @include rem(padding-right, 50px);
+  &:after {
+    content: "\F62A";
+    font-family: "Bootstrap-icons";
+  }
+
+  &.collapsed {
+    &:after {
+      content: "\F479";
     }
   }
 }
+
+.subpage-toggler {
+  position: absolute;
+  background-color: transparent;
+  top: 0;
+  right: 0;
+  border: 0;
+  line-height: 26px;
+
+  &:after {
+    content: "\F282";
+    font-family: "Bootstrap-icons";
+  }
+
+  &.show {
+    &:after {
+      content: "\F286";
+    }
+  }
+}
+
+.navbar-nav {
+  .nav-item {
+    @include media-breakpoint-up(md) {
+      @include rem(margin-right, 30px);
+    }
+
+    @include media-breakpoint-down(lg) {
+      position: relative;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .nav-link {
+      @include rem(padding, 0px 0px 0px 0px);
+    }
+
+    &.dropdown {
+      .nav-link {
+        @include rem(padding-right, 40px);
+      }
+    }
+  }
+}
+

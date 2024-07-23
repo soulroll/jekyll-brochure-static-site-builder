@@ -4,6 +4,7 @@ description: Te Tai Treaty Settlement Stories static website using Jekyll and We
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty # Use pretty permalinks for cleaner URLs
+default_theme: light
 
 # Build settings
 markdown: kramdown
