@@ -1,9 +1,6 @@
 - title: "Home"
   url: "/"
 
-- title: "About us"
-  url: "/about/"
-  
 - title: "Services"
   url: "/services/"
   subpages:
@@ -15,6 +12,9 @@
       subhref: "/services/accessibility/"
     - subtitle: "Hosting"
       subhref: "/services/hosting/"
+
+- title: "About us"
+  url: "/about/"
 
 - title: "Contact us"
   url: "/contact/"

@@ -1,13 +1,14 @@
 .navbar {
   @include rem(padding, 20px 0 20px 0);
+  background-color: #fff;
 }
 
 .navbar-brand {
-  font-size: 26px;
+  @include rem(font-size, 26px);
 }
 
 .navbar-toggler {
-  font-size: 32px;
+  @include rem(font-size, 32px);
 
   &:after {
     content: "\F62A";
@@ -27,7 +28,7 @@
   top: 0;
   right: 0;
   border: 0;
-  line-height: 26px;
+  @include rem(line-height, 26px);
 
   &:after {
     content: "\F282";

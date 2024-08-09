@@ -13949,14 +13949,17 @@ body {
 .navbar {
   padding: 20px 0 20px 0;
   padding: 1.25rem 0 1.25rem 0;
+  background-color: #fff;
 }
 
 .navbar-brand {
   font-size: 26px;
+  font-size: 1.625rem;
 }
 
 .navbar-toggler {
   font-size: 32px;
+  font-size: 2rem;
 }
 .navbar-toggler:after {
   content: "\f62a";
@@ -13973,6 +13976,7 @@ body {
   right: 0;
   border: 0;
   line-height: 26px;
+  line-height: 1.625rem;
 }
 .subpage-toggler:after {
   content: "\f282";
@@ -14071,6 +14075,13 @@ body {
   margin-bottom: 1.875rem;
 }
 
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
 html {
   background-color: #eee;
 }
@@ -14079,6 +14090,7 @@ body {
   font-family: "Montserrat Variable", sans-serif;
   font-weight: 400;
   font-size: 20px;
+  font-size: 1.25rem;
 }
 
 main {

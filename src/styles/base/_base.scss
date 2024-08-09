@@ -5,7 +5,7 @@ html {
 body {
   font-family: 'Montserrat Variable', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  @include rem(font-size, 20px);
 }
 
 main {
