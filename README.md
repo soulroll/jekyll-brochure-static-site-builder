@@ -19,6 +19,10 @@ An opinionated pipeline for creating light weight accessible brochure size busin
 - Web Accessibility Standards
 - Web Usability Standards
 
+## Easy installation
+- Run the build pipeline
+- Copy _site contents to the server
+
 ## Included page types
 - Homepage
 - Landing page (About / Services / Products)
@@ -30,6 +34,8 @@ An opinionated pipeline for creating light weight accessible brochure size busin
 - Albums
   - Gallery
 - FAQ
+- Pricing
+- Careers
 - Team
   - Team member
 - News
