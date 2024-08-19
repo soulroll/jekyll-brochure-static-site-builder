@@ -1,6 +1,6 @@
 # Site settings
 title: Jekyll Brochure Static Site Builder
-description: Te Tai Treaty Settlement Stories static website using Jekyll and Webpack.
+description: Static website using Jekyll and Webpack.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty # Use pretty permalinks for cleaner URLs
