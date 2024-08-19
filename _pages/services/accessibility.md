@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Accessibility"
-permalink: /services/accessibility
+permalink: /services/accessibility/
 class: about
 lang: en
 theme: light

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Web Design"
-permalink: /services/websitedesign
+permalink: /services/websitedesign/
 class: webdesign
 lang: en
 theme: light

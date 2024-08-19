@@ -39,6 +39,8 @@
 // Carousel arrow modifications
 .carousel-control-prev,
 .carousel-control-next {
+  z-index: 7;
+
   @media (max-width: 1960px) { 
     width: 5%;
   }
