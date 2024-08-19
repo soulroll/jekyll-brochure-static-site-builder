@@ -19,18 +19,18 @@ An opinionated pipeline for creating light weight accessible brochure size busin
 - Web Accessibility Standards
 - Web Usability Standards
 
-## Included pagetypes
+## Included page types
 - Homepage
 - Landing page (About / Services / Products)
 - Page
 - Portfolio
- - Case study
+  - Case study
 - Contact page
 - Testimonials
 - Albums
- - Gallery
+  - Gallery
 - FAQ
 - Team
- - Team member
+  - Team member
 - News
- - Article
+  - Article
