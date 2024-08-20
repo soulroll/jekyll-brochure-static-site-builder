@@ -10,7 +10,8 @@
     "build:jekyll": "jekyll build",
     "build:webpack": "webpack --mode production",
     "build:purgecss": "purgecss --config purgecss.config.js",
-    "build": "npm run build:webpack && npm run build:jekyll && npm run build:purgecss",
+    "build:optimize-images": "node optimize-images.js",
+    "build": "npm run build:webpack && npm run build:jekyll && npm run build:purgecss && npm run build:optimize-images",
     "serve:jekyll": "jekyll serve",
     "serve:webpack": "webpack --watch",
     "serve": "concurrently \"npm run serve:jekyll\" \"npm run serve:webpack\""
@@ -32,6 +33,7 @@
     "postcss-loader": "^8.1.1",
     "sass": "^1.77.4",
     "sass-loader": "^14.2.1",
+    "sharp": "^0.33.5",
     "style-loader": "^4.0.0",
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4"
