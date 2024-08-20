@@ -7,6 +7,7 @@ An opinionated pipeline for creating light weight accessible brochure size busin
 - Bootstrap 5
 - Webpack
 - PurgeCSS
+- Sharp (Image Optimization)
 - Print tested pages
 - Automaticly generated sidebar and breadcrumbs for sub pages
 
