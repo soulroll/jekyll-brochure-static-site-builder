@@ -6,7 +6,7 @@ footer {
 }
 
 .footer-primary {
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #aaa;
   @include rem(padding, 20px 0 20px 0);
 }
 
@@ -65,8 +65,10 @@ footer {
 }
 
 .footer-secondary-nav-link {
+  @include rem(padding, 0 30px 0 25px);
   color: $brand-black;
   text-decoration: none;
+  border-left: 1px solid #999;
 
   &:hover {
     text-decoration: underline;

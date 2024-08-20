@@ -21,7 +21,7 @@
 }
 
 .carousel-caption-custom {
-  @include rem(padding, 35px 40px 40px 40px);
+  @include rem(padding, 45px 50px 50px 50px);
   @include rem(max-width, 650px);
   background-color: rgba(0,0,0,0.2);
   position: relative;

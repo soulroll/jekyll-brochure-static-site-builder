@@ -1,6 +1,5 @@
 .navbar {
-  @include rem(padding, 20px 0 20px 0);
-  background-color: #fff;
+  @include rem(padding, 20px 0);
 }
 
 .navbar-brand {
@@ -57,7 +56,7 @@
     }
 
     .nav-link {
-      @include rem(padding, 0px 0px 0px 0px);
+      padding: 0;
     }
 
     &.dropdown {
