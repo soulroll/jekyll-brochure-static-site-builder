@@ -15,7 +15,7 @@ main {
 }
 
 .page {
-  @include rem(padding, 60px 0 60px 0);
+  @include rem(padding, 60px 0);
 }
 
 .carousel-item {
