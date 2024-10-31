@@ -1,0 +1,22 @@
+<nav class="sidebar-nav">
+  <ul>
+
+    {% assign current_section = page.url | split: '/' | slice: 0, 2 | join: '/' %}
+    {% assign current_section_with_slash = current_section | append: '/' %}
+
+    <!-- Display the current section for debugging -->
+    <li>Current Section: {{ current_section_with_slash }}</li>
+
+
+    {% for item in site.data.navigation %}
+      <!-- Check if item has subpages -->
+      {% if item.subpages != null %}
+        {% for subpage in item.subpages %}
+          <li>
+            <a href="{{ subpage.subhref }}">{{ subpage.subtitle }}</a>
+          </li>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
