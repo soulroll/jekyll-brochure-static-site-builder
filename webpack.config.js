@@ -23,7 +23,14 @@ module.exports = {
               url: false
             }
           },
-          'sass-loader'
+          {
+            loader: 'sass-loader',
+            options: {
+              sassOptions: {
+                quietDeps: true // Suppress deprecation warnings from node_modules in this case bootstraps
+              }
+            }
+          }
         ]
       },
       {
@@ -55,5 +62,10 @@ module.exports = {
     compress: true,
     port: 9000,
     watchContentBase: true // Watch for changes in content base to reload
+  },
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
   }
 };
